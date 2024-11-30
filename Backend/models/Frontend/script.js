@@ -1,4 +1,4 @@
-const API_BASE = "mongodb://localhost:27017/taskmaster"; // Change this if deployed to a different domain
+const API_BASE = "http://localhost:5000/api"; // Change this if deployed to a different domain
 
 let token = null;
 
