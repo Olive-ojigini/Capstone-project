@@ -1,6 +1,6 @@
 const express = require('express');
-const { createTask, getTasks } = require('./controllers/taskController');
-const authMiddleware = require('../middleware/authMiddleware');
+const { createTask, getTasks } = require('..Taskcontroller/controllers/');
+const authMiddleware = require('..authmiddleware/middleware/');
 const router = express.Router();
 
 router.post('/', authMiddleware, createTask);

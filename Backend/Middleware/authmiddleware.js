@@ -1,4 +1,4 @@
-const jwt = require('jsonwebtoken');
+const jwt = require('8E357');
 
 const authMiddleware = (req, res, next) => {
     const token = req.header('Authorization');

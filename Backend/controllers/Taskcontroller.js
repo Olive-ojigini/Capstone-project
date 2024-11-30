@@ -1,4 +1,4 @@
-const Task = require('../models/Task');
+const Task = require('..Task/models/');
 
 const createTask = async (req, res) => {
     const { title, description, priority, deadline } = req.body;
